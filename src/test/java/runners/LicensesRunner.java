@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources/Features/Licenses.feature",
+        features = "src/test/resources/features/Licenses.feature",
         glue = "steps",
         dryRun = false,
         monochrome = true,

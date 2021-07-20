@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources/Features/AddNewJobTitle.feature",
+        features = "src/test/resources/features/AddNewJobTitle.feature",
         glue = "steps",
         dryRun = true,
         monochrome = true,
