@@ -2,7 +2,7 @@ Feature: Add New Job Title
 
   @jobtitle
   Scenario: Adding new job title as Admin
-    When user is logged in with valid admin credentials
+    Given Admin user is logged in
     Then user click on Admin button
     Then user click on Job title button
     And user click on Add button
